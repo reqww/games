@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/main')
+sys.path.insert(0, '/home/travis/build/reqww/games/main')
 
 import unittest
 import check_board, game_win, write_board
