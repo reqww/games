@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, 'C:/Users/User/Desktop/games/main')
+sys.path.insert(0, '/main')
 
 import pytest
 import cards as cd
