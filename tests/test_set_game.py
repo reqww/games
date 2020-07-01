@@ -1,7 +1,10 @@
+import sys
+sys.path.insert(0, 'C:/Users/User/Desktop/games/main')
+
 import pytest
-from cards import Card
 import cards as cd
 
+Card = cd.Card
 
 @pytest.mark.xfail(raises=ValueError)
 def test_card_create1():

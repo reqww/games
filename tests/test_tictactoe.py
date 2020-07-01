@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0, 'C:/Users/User/Desktop/games/main')
+
 import unittest
 import check_board, game_win, write_board
 
